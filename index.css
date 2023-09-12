@@ -48,7 +48,7 @@ body {
 
 .Color {
     content: '';
-    background-color: hsl(277, 77%, 29%);
+    background-color: hsla(277, 77%, 31%, 0.89);
     opacity: 0.620;
     position: absolute;
     width: 430pt;
