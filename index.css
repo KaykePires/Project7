@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+}
+
+
+.Containner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.Everthing {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 15px;
+
+
+}
+
+
+.Img {
+    width: 430pt;
+}
+
+#HeaderImg {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.Color {
+    content: '';
+    background-color: hsl(277, 77%, 29%);
+    opacity: 0.620;
+    position: absolute;
+    width: 430pt;
+    height: 478px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.Principal {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 450pt;
+
+}
+
+
+#Tittle,
+#ColorText {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: hsl(0, 0%, 100%);
+}
+
+#ColorText {
+    color: hsl(277, 64%, 61%);
+}
+
+
+#Tittle {
+    width: 350px;
+    padding-left: 70px;
+    padding-top: 60px;
+    line-height: 30pt;
+    text-align: start;
+}
+
+
+#TextPara {
+    width: 370px;
+    text-align: start;
+    font-size: 15px;
+    padding-left: 70px;
+    padding-top: 30px;
+    color: hsla(0, 0%, 100%, 0.616);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    line-height: 20pt;
+
+}
+
+.Numbers {
+    margin-top: 100px;
+}
+
+#Number1,
+#Number2,
+#Number3 {
+    font-size: 25pt;
+    color: hsl(0, 0%, 100%);
+    text-align: start;
+    padding-left: 70px;
+}
+
+#Companies,
+#Templates,
+#Queries {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+
+}
+
+#Number1 {
+    text-transform: lowercase;
+}
+
+#Text1,
+#Text2,
+#Text3 {
+    text-align: start;
+    padding-left: 70px;
+    padding-top: 5px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.486);
+    font-size: 15px;
+
+}
